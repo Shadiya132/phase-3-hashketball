@@ -1,4 +1,6 @@
 # Write your code below game_hash
+require "pry" 
+
 def game_hash
   {
     home: {
@@ -124,6 +126,37 @@ def game_hash
       ]
     }
   }
+
 end
 
 # Write code here
+# Helper method
+def all_players
+
+end
+
+def get_player_by_name(player_name)
+end 
+
+def get_team_by_name(team_name)
+end
+
+
+
+def num_points_scored(players)
+  puts game_hash[:home][:points]
+end 
+
+def shoe_size(player_name)
+end 
+
+def team_colors(team_name)
+end 
+
+def player_numbers(team_name)
+end
+
+def player_stats(player_name)
+end 
+
+binding.pry
